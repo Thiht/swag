@@ -1,4 +1,4 @@
-module github.com/swaggo/swag
+module github.com/Thiht/swag
 
 go 1.18
 
@@ -6,6 +6,7 @@ require (
 	github.com/KyleBanks/depth v1.2.1
 	github.com/go-openapi/spec v0.20.4
 	github.com/stretchr/testify v1.7.0
+	github.com/swaggo/swag v0.0.0-00010101000000-000000000000
 	github.com/urfave/cli/v2 v2.3.0
 	golang.org/x/text v0.14.0
 	golang.org/x/tools v0.7.0
@@ -36,3 +37,5 @@ retract (
 	v1.16.0 // published accidentally
 	v1.9.0 // published accidentally
 )
+
+replace github.com/swaggo/swag => github.com/Thiht/swag v0.0.0-20240720180118-f50167ed9778
